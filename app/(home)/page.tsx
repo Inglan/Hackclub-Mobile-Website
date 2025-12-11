@@ -1,16 +1,17 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col justify-center text-center flex-1">
-      <h1 className="text-2xl font-bold mb-4">Hello World</h1>
-      <p>
-        You can open{' '}
-        <Link href="/docs" className="font-medium underline">
-          /docs
-        </Link>{' '}
-        and see the documentation.
-      </p>
+    <div className="flex flex-1 flex-col justify-center items-center gap-4">
+      <h1 className="text-6xl">Hack Club Mobile</h1>
+      <div className="flex flex-row gap-2">
+        <Link
+          href="/docs"
+          className="text-xl py-2 px-6 bg-fd-primary text-fd-primary-foreground rounded-xl"
+        >
+          Docs
+        </Link>
+      </div>
     </div>
   );
 }
