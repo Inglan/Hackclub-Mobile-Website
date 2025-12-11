@@ -1,3 +1,12 @@
 @import "tailwindcss";
 @import "fumadocs-ui/css/solar.css";
 @import "fumadocs-ui/css/preset.css";
+@theme {
+    --color-fd-primary: #ec3750;
+    --color-fd-primary-foreground: white;
+}
+
+.dark {
+    --color-fd-primary: #ec3750;
+    --color-fd-primary-foreground: white;
+}
