@@ -3,7 +3,11 @@ import { baseOptions } from "@/lib/layout.shared";
 
 export default function Layout({ children }: LayoutProps<"/">) {
   return (
-    <HomeLayout {...baseOptions()} links={[{ url: "/docs", text: "Docs" }]}>
+    <HomeLayout
+      {...baseOptions()}
+      links={[{ url: "/docs", text: "Docs" }]}
+      themeSwitch={{ enabled: false }}
+    >
       {children}
     </HomeLayout>
   );
