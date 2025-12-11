@@ -1,4 +1,5 @@
 {
   "title": "Contributing",
-  "pages": ["code", "docs"]
+  "pages": ["code", "docs"],
+  "icon": "Heart"
 }

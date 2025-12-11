@@ -1,4 +1,5 @@
 {
   "title": "Developer Docs",
-  "pages": ["quickstart", "backend", "auth"]
+  "pages": ["quickstart", "backend", "auth"],
+  "icon": "Code"
 }
