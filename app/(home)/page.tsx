@@ -1,3 +1,6 @@
+"use client";
+
+import { ActionResponse, Feedback } from "@/components/feedback";
 import Link from "next/link";
 
 export default function HomePage() {
